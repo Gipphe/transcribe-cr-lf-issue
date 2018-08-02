@@ -1,0 +1,10 @@
+{
+	"name": "transcribe-cr-lf-issue",
+	"version": "0.1.0",
+	"dependencies": {
+		"transcribe": "^1.1.1"
+	},
+	"scripts": {
+		"transcribe": "transcribe --url 'https://github.com/Gipphe/transcribe-cr-lf-issue/blob/master/{filename}#L{line}' -- index.js > README.md"
+	}
+}
